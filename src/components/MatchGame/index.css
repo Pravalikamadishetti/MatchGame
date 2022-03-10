@@ -1,0 +1,142 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.match-game-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  width: 85%;
+  max-width: 800px;
+}
+
+.match-image-and-images-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.match-image {
+  width: 75%;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+  .match-image {
+    width: 85%;
+    max-width: 800px;
+  }
+}
+.tabs-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.images-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.game-over-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-over-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    width: 80%;
+    max-width: 600px;
+    padding-top: 190px;
+    padding-bottom: 70px;
+  }
+}
+
+.trophy-image {
+  height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .trophy-image {
+    height: 250px;
+  }
+}
+.your-score-text {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .your-score-text {
+    font-size: 24px;
+  }
+}
+
+.score {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 48px;
+  }
+}
+.play-again-button {
+  display: flex;
+  align-items: center;
+  background-color: #cf60c8;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .play-again-button {
+    font-size: 22px;
+  }
+}
+
+.reset-image {
+  width: 20px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .reset-image {
+    width: 26px;
+  }
+}
